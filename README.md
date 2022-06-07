@@ -1,8 +1,6 @@
-# Embodied-Interaction-Mini-Project
-
-# EI mini report
-
 # Introduction
+
+
 
 "The Internet of Things", e.g., smart light, 
 is becoming increasingly ubiqitious. The question this is: *how do we develop relations, and fluid controls for our digital co-inhabitants?*
@@ -27,21 +25,22 @@ Combined with physical expression, it unlocks a sort of "god-mode" - or Darth Va
 
 This reports documents the work, and considerations for how 
 
-Report Outline
+**Report Outline**
 	1. Theoritical Grounding
 	2. Implications for design
 	3. Laban Effort Descriptors Implementations and use case considerations.
 	4. Final Remarks. 
 
-
 The following report will first theoritical grounding of the design process, some general considerations/takeaways based on this literature, then outline the work on extracting Laban Effort Descriptors and considerations on how this could be used.
 
-NOTE: From this previous semester project, the onlywork that is being re-used, is an application that sends the sensor data via open-sound control (OSC). The type of sensor, and its placement will be the same. The present mini-project will not have any BCI or other technology for *selection* of lights implemented, however it will be considered as part of this whole. 
+**NOTES ON HOW THIS DIFFERS FROM P7 PROJECT:** - - From this previous semester project, the onlywork that is being re-used, is an application that sends the sensor data via open-sound control (OSC). 
+- The type of sensor, and its placement will be the same. 
+- The P7 project did not use Laban Descriptors nor really consider movement. It focused 'Sense of Agency' for these types of interactions. 
+- The present mini-project will not have any BCI or other technology for *selection* of lights implemented, however it will be considered as part of this whole. 
 
 ## Theoritical Grounding -  Soma Design
 
-From a dualistic perspective the two technologies are clearly divided between: the mind, and the body. Therefore, Höök et al.'s paper ["Unpacking Non-Dualistic Design: The Soma Design Case"](https://doi.org/10.1145/3462448) [[1]]
-
+From a dualistic perspective the two technologies are clearly divided between: the mind, and the body. Therefore, Höök et al.'s paper ["Unpacking Non-Dualistic Design: The Soma Design Case"](https://doi.org/10.1145/3462448) [1]
 was chosen as main reference for this mini-project in order to open up for a more nuanced perspective, as wells as leveraging the first-person perspective insights of the researcher.
 
 Höök et al. propose three tactics involving:
@@ -49,8 +48,8 @@ Höök et al. propose three tactics involving:
 2) Engaging with defamiliarisation methods
 3) Extending movement repertoire
 
-They were (at times) employed as follows:
-1) Some sessions were intiated with the following **exercises**:
+They were employed as follows:
+1) Initiating (some) session with **exercises**:
 	- A Body-Scan
 	- A low-key tea ceremony 
 
@@ -69,15 +68,17 @@ They were (at times) employed as follows:
 	- Lazy
 	- Dual-tasking
 
-Another paper that have served as a lens on this design, is Naccarato and MacCallum's [From representation to relationality: Bodies, biosensors and mediated environments](https://doi.org/10.1386/jdsp.8.1.57_1) [3]
+Another paper that have served as a lens on this design, is Naccarato and MacCallum's [From representation to relationality: Bodies, biosensors and mediated environments](https://doi.org/10.1386/jdsp.8.1.57_1) [2]
 
 They disregard the representational approach of biological signals - as there is no stable human body to be measured - It is in constant flux, both in terms of physiology, but also behaviour and contexts. It should therefore be seen as a complex system of relationality, that exceeds representation.
 
 Biosensor information have run the risk of being misintepretation, being subject to rigid interpretation, or cherry-picking to reach an isolated goal - Thus foregrounding the mediation constructed by the designers, but not opening up to fluid relations and dynamics. 
 
-Acknowleding these limitations and challenges of biodata application, they propose 'biorelational feedback' - Putting the challenge on the designer, to creatively mediate and facilitate fluid relations between human and mediated environments, and intpretating awareness and agency across actors.  They argue that " In the absence of dynamic body movement, streams of biodata provide limited information regarding flows of relationality and agency between physiology, action and environment." [3]
+Acknowleding these limitations and challenges of biodata application, they propose 'biorelational feedback' - Putting the challenge on the designer, to creatively mediate and facilitate fluid relations between human and mediated environments, and intpretating awareness and agency across actors.  They argue that " In the absence of dynamic body movement, streams of biodata provide limited information regarding flows of relationality and agency between physiology, action and environment." [2]
 
-## Implications of theoritical grounding on design 
+## Implications for design 
+
+This literature led to some considerations on how to tackle humans in mediated environments:
 
 - **Rectrictive protocols of interactions** 
 	- for example, from a dualistic approach on might develop very system 2 style of interaction flow: First "the mind" selects a light; then "the body" executes a desired command/interaction.
@@ -95,8 +96,8 @@ Acknowleding these limitations and challenges of biodata application, they propo
 
 This raises the following directions to investigate for this mini-project: 
 
-1) ***How can redundant representation be avoided in favour of relationality, i.e., how to engage with simple parameter in a non-rigid manner - Opening up the loop***
-2) ***How can dynamic body movement be used to inform and asses flows for relationality? i.e., How could movement data be extracted, and used***
+1) ***How can dynamic body movement be used to inform and asses flows for relationality? i.e., How could movement data be extracted, and used***
+2) ***How can redundant representation be avoided in favour of relationality, i.e., how to engage with simple parameter in a non-rigid manner - Opening up the loop***
 
 ## Implementation
 
@@ -107,7 +108,7 @@ From a technical implementation standpoint, this mini-projects aims at exploring
 
 The setup can be seen above. 
 
-To this aim, Laban descriptors was sought to be extracted. This was done in Max 8 while exploring different packages for this job - Specifically MultiBuffer(MUBU), PIPO, 
+To this aim, Laban descriptors was sought to be extracted. This was done in Max 8 while exploring different packages for this job - Specifically MultiBuffer(MUBU), PIPO, and various package for machine learning.
 
 
 
@@ -119,16 +120,14 @@ To this aim, Laban descriptors was sought to be extracted. This was done in Max 
 
 EMG provides physiological data about the contraction and release of muscles, and therefore provides fairly concrete and objective measurement of Weight feature.
 
-Following previously proposed approaches ([1](http://dx.doi.org/10.1145/3025453.3025530)[[1]]) , the weight effort were calculated using a non-linear Bayesian filter from the [PIPO Max-package](https://www.julesfrancoise.com/pipo-emg-envelope/). This provides an envelope of the signal ranging from light to strong effort, that is more stable and reactive than the RMS of the signal. 
+Following previously proposed approaches [3], the weight effort were calculated using a non-linear Bayesian filter from the [PIPO Max-package](https://www.julesfrancoise.com/pipo-emg-envelope/). This provides an envelope of the signal ranging from light to strong effort, that is more stable and reactive than the RMS of the signal. 
 
 
 ### Time - Sudden / sustained
 
-Again, following the approach of Alaoui et. al [] - The Time feature is extracted by calculating the magnitude of the jerk from accelerometer
+Again, following the approach of Alaoui et. al [3] - The Time feature is extracted by calculating the magnitude of the jerk from accelerometer
 
 ![](https://i.imgur.com/OASqDYi.png)
-
-
 
 ### Direction - Bound/Free 
 
@@ -153,16 +152,18 @@ It facilitates the mediated environement be more contextually aware, and the use
 To be a bit more specific:
 "Free" movements in the seconds before 'grasping' could indicate more playful type of control, while "bound" indicating a more predefined or fine-grained goal-oriented interaction (e.g., shut off light, or a specific command colour/command).
 
-T
+This implemention work mentioned above, took time away from the second question: How can redundant representation be avoided? 
 
-
+The gif below illustrates how such a system design could be implemented. It avoids continious adjustments of a parameter, while still providing the flexibility to choose a range of colours.
 
 ![](ezgif-1-93826c0efb.gif)
 
-Analyzing Body Movements within the Laban Effort Framework Using a Single AccelerometerBasel Kikhia*, Miguel Gomez, Lara Lorna Jiménez, Josef Hallberg, Niklas Karvonenand Kåre Synnes
-Laban Effort descriptors was therefore 
+#### Reflections
 
+There's too many nuances from a somaesthetic 
+viewpoint to many in a short report, but here's a few considerations:
 
+- **The grasp** Following the setup of the P7 project, this design process used the same thumb muscle for activation. While this gesture was appreciated for *feeling* more refined than a 'grab' (grasping with the other four fingers) - It definitely more tiring. An array of 'grasping' gestures should be implemented - An additional EMG sensor on the forearm muscles could pick up on additional muscles.
  
 ## References
 
@@ -170,7 +171,7 @@ Laban Effort descriptors was therefore
 <a id="2">[2]</a>Naccarato, Teoma Jackson, and John MacCallum. "From representation to relationality: Bodies, biosensors and mediated environments." _Journal of Dance & Somatic Practices_ 8.1 (2016): 57-72.
 <a id="3">[3]</a> Fdili Alaoui, Sarah, et al. "Seeing, sensing and recognizing Laban movement qualities." _Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems_. 2017.
 <a id="4">[4]</a>Kikhia, Basel, et al. "Analyzing body movements within the laban effort framework using a single accelerometer." _Sensors_ 14.3 (2014): 5725-5741.
-[Unpacking Non-Dualistic Design: The Soma Design Case | ACM Transactions on Computer-Human Interaction](https://doi.org/10.1145/3462448)
+
 
 
 # Appendix.
@@ -184,3 +185,8 @@ Laban Effort descriptors was therefore
 
 ![](https://i.imgur.com/yAESqLR.jpg)
 FFT of the EMG signal - Here the signal/noise is quite obvious. The spectral energy of the bins was also calculated. From a bit of experimentation with it, it could be that this was more robust to noise than the bayesian filter with the present setup - (e.g., because the adhesive tapes losing its stickiness). Though, more experimentation is needed to know.
+
+---
+
+![](https://i.imgur.com/GHQVZNQ.png)
+First two peaks are 'wringing' - The second is punches.
