@@ -1,0 +1,1780 @@
+GRT_RANDOM_FOREST_MODEL_FILE_V1.0
+Trained: 1
+UseScaling: 1
+NumInputDimensions: 3
+NumOutputDimensions: 2
+NumTrainingIterationsToConverge: 0
+MinNumEpochs: 0
+MaxNumEpochs: 100
+ValidationSetSize: 20
+LearningRate: 0.1
+MinChange: 1e-05
+UseValidationSet: 1
+RandomiseTrainingOrder: 1
+UseNullRejection: 0
+ClassifierMode: 0
+NullRejectionCoeff: 5
+NumClasses: 2
+NullRejectionThresholds:  0 0
+ClassLabels:  1 2
+Ranges: 
+0	1
+-0.0637202	1.50298
+1.23339	18.8751
+DecisionTreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 0
+IsLeafNode: 0
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 0
+NumClasses: 0
+ClassProbabilities: FeatureIndex: 0
+Threshold: 0
+ForestSize: 10
+NumSplittingSteps: 100
+MinNumSamplesPerNode: 5
+MaxDepth: 10
+RemoveFeaturesAtEachSpilt: 1
+TrainingMode: 1
+ForestBuilt: 1
+Forest:
+Tree: 1
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 8106
+NumClasses: 2
+ClassProbabilities: 0.120775	0.879225
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1081
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9187
+NumClasses: 2
+ClassProbabilities: 0.106564	0.893436
+FeatureIndex: 1
+Threshold: 0.158378
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2869
+NumClasses: 2
+ClassProbabilities: 0.00487975	0.99512
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1195
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 4064
+NumClasses: 2
+ClassProbabilities: 0.00344488	0.996555
+FeatureIndex: 1
+Threshold: 0.216608
+NodeSize: 13251
+NumClasses: 2
+ClassProbabilities: 0.0749377	0.925062
+FeatureIndex: 0
+Threshold: 0.107559
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 11205
+NumClasses: 2
+ClassProbabilities: 1	0
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 41
+NumClasses: 2
+ClassProbabilities: 0.658537	0.341463
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 25
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 66
+NumClasses: 2
+ClassProbabilities: 0.409091	0.590909
+FeatureIndex: 0
+Threshold: 0.0868982
+NodeSize: 11271
+NumClasses: 2
+ClassProbabilities: 0.99654	0.00346021
+FeatureIndex: 1
+Threshold: 0.047829
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.498532	0.501468
+FeatureIndex: 2
+Threshold: 0.380428
+Tree: 2
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 7940
+NumClasses: 2
+ClassProbabilities: 0.11335	0.88665
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1174
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9114
+NumClasses: 2
+ClassProbabilities: 0.0987492	0.901251
+FeatureIndex: 1
+Threshold: 0.15874
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2785
+NumClasses: 2
+ClassProbabilities: 0.00466786	0.995332
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1306
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 4091
+NumClasses: 2
+ClassProbabilities: 0.00317771	0.996822
+FeatureIndex: 1
+Threshold: 0.206579
+NodeSize: 13205
+NumClasses: 2
+ClassProbabilities: 0.0691405	0.93086
+FeatureIndex: 0
+Threshold: 0.107091
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1860
+NumClasses: 2
+ClassProbabilities: 0.998387	0.0016129
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 9421
+NumClasses: 2
+ClassProbabilities: 0.998408	0.00159219
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11281
+NumClasses: 2
+ClassProbabilities: 0.998404	0.0015956
+FeatureIndex: 0
+Threshold: 0.00606908
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 21
+NumClasses: 2
+ClassProbabilities: 0.190476	0.809524
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 15
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 36
+NumClasses: 2
+ClassProbabilities: 0.111111	0.888889
+FeatureIndex: 0
+Threshold: 0.086532
+NodeSize: 11317
+NumClasses: 2
+ClassProbabilities: 0.995582	0.00441813
+FeatureIndex: 1
+Threshold: 0.0968594
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.496697	0.503303
+FeatureIndex: 2
+Threshold: 0.37989
+Tree: 3
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 8255
+NumClasses: 2
+ClassProbabilities: 0.115203	0.884797
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1009
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9264
+NumClasses: 2
+ClassProbabilities: 0.102655	0.897345
+FeatureIndex: 1
+Threshold: 0.163446
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2903
+NumClasses: 2
+ClassProbabilities: 0.00344471	0.996555
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1045
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 3948
+NumClasses: 2
+ClassProbabilities: 0.00253293	0.997467
+FeatureIndex: 1
+Threshold: 0.229569
+NodeSize: 13212
+NumClasses: 2
+ClassProbabilities: 0.0727369	0.927263
+FeatureIndex: 0
+Threshold: 0.10696
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1878
+NumClasses: 2
+ClassProbabilities: 1	0
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 9402
+NumClasses: 2
+ClassProbabilities: 0.998936	0.0010636
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11280
+NumClasses: 2
+ClassProbabilities: 0.999113	0.000886525
+FeatureIndex: 0
+Threshold: 0.00604266
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 30
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11310
+NumClasses: 2
+ClassProbabilities: 0.996463	0.00353669
+FeatureIndex: 1
+Threshold: 0.100661
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.498777	0.501223
+FeatureIndex: 2
+Threshold: 0.380491
+Tree: 4
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 7035
+NumClasses: 2
+ClassProbabilities: 0.128216	0.871784
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2088
+NumClasses: 2
+ClassProbabilities: 0.00239464	0.997605
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9123
+NumClasses: 2
+ClassProbabilities: 0.0994191	0.900581
+FeatureIndex: 1
+Threshold: 0.127932
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2831
+NumClasses: 2
+ClassProbabilities: 0.00317909	0.996821
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1155
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 3986
+NumClasses: 2
+ClassProbabilities: 0.0022579	0.997742
+FeatureIndex: 1
+Threshold: 0.217385
+NodeSize: 13109
+NumClasses: 2
+ClassProbabilities: 0.0698757	0.930124
+FeatureIndex: 0
+Threshold: 0.10711
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1882
+NumClasses: 2
+ClassProbabilities: 1	0
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 9501
+NumClasses: 2
+ClassProbabilities: 0.998632	0.00136828
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11383
+NumClasses: 2
+ClassProbabilities: 0.998858	0.00114205
+FeatureIndex: 0
+Threshold: 0.00606316
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 14
+NumClasses: 2
+ClassProbabilities: 0.142857	0.857143
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 16
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 30
+NumClasses: 2
+ClassProbabilities: 0.0666667	0.933333
+FeatureIndex: 0
+Threshold: 0.0881584
+NodeSize: 11413
+NumClasses: 2
+ClassProbabilities: 0.996408	0.00359239
+FeatureIndex: 1
+Threshold: 0.102094
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.501101	0.498899
+FeatureIndex: 2
+Threshold: 0.380435
+Tree: 5
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 7782
+NumClasses: 2
+ClassProbabilities: 0.121049	0.878951
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1239
+NumClasses: 2
+ClassProbabilities: 0.00322841	0.996772
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9021
+NumClasses: 2
+ClassProbabilities: 0.104866	0.895134
+FeatureIndex: 1
+Threshold: 0.149393
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2969
+NumClasses: 2
+ClassProbabilities: 0.00437858	0.995621
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1096
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 4065
+NumClasses: 2
+ClassProbabilities: 0.00319803	0.996802
+FeatureIndex: 1
+Threshold: 0.225005
+NodeSize: 13086
+NumClasses: 2
+ClassProbabilities: 0.0732844	0.926716
+FeatureIndex: 0
+Threshold: 0.107293
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1890
+NumClasses: 2
+ClassProbabilities: 1	0
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 9518
+NumClasses: 2
+ClassProbabilities: 0.998739	0.00126077
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11408
+NumClasses: 2
+ClassProbabilities: 0.998948	0.00105189
+FeatureIndex: 0
+Threshold: 0.00601678
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 14
+NumClasses: 2
+ClassProbabilities: 0.0714286	0.928571
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 14
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 28
+NumClasses: 2
+ClassProbabilities: 0.0357143	0.964286
+FeatureIndex: 0
+Threshold: 0.0862193
+NodeSize: 11436
+NumClasses: 2
+ClassProbabilities: 0.99659	0.00341028
+FeatureIndex: 1
+Threshold: 0.0984331
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.503874	0.496126
+FeatureIndex: 2
+Threshold: 0.380448
+Tree: 6
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 8033
+NumClasses: 2
+ClassProbabilities: 0.118885	0.881115
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1042
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9075
+NumClasses: 2
+ClassProbabilities: 0.105234	0.894766
+FeatureIndex: 1
+Threshold: 0.158717
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2971
+NumClasses: 2
+ClassProbabilities: 0.00336587	0.996634
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1106
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 4077
+NumClasses: 2
+ClassProbabilities: 0.00245278	0.997547
+FeatureIndex: 1
+Threshold: 0.225977
+NodeSize: 13152
+NumClasses: 2
+ClassProbabilities: 0.0733729	0.926627
+FeatureIndex: 0
+Threshold: 0.107375
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1913
+NumClasses: 2
+ClassProbabilities: 0.999477	0.000522739
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 9417
+NumClasses: 2
+ClassProbabilities: 0.998832	0.0011681
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11330
+NumClasses: 2
+ClassProbabilities: 0.998941	0.00105914
+FeatureIndex: 0
+Threshold: 0.00601159
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 20
+NumClasses: 2
+ClassProbabilities: 0.1	0.9
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 20
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 40
+NumClasses: 2
+ClassProbabilities: 0.05	0.95
+FeatureIndex: 0
+Threshold: 0.0861111
+NodeSize: 11370
+NumClasses: 2
+ClassProbabilities: 0.995602	0.00439754
+FeatureIndex: 1
+Threshold: 0.10168
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.500979	0.499021
+FeatureIndex: 2
+Threshold: 0.380361
+Tree: 7
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 8187
+NumClasses: 2
+ClassProbabilities: 0.112618	0.887382
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1063
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9250
+NumClasses: 2
+ClassProbabilities: 0.0996757	0.900324
+FeatureIndex: 1
+Threshold: 0.158614
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2943
+NumClasses: 2
+ClassProbabilities: 0.00373768	0.996262
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1092
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 4035
+NumClasses: 2
+ClassProbabilities: 0.00272615	0.997274
+FeatureIndex: 1
+Threshold: 0.222345
+NodeSize: 13285
+NumClasses: 2
+ClassProbabilities: 0.0702296	0.92977
+FeatureIndex: 0
+Threshold: 0.107542
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1853
+NumClasses: 2
+ClassProbabilities: 1	0
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 9350
+NumClasses: 2
+ClassProbabilities: 0.999037	0.000962567
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11203
+NumClasses: 2
+ClassProbabilities: 0.999197	0.000803356
+FeatureIndex: 0
+Threshold: 0.00608329
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 16
+NumClasses: 2
+ClassProbabilities: 0.0625	0.9375
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 18
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 34
+NumClasses: 2
+ClassProbabilities: 0.0294118	0.970588
+FeatureIndex: 0
+Threshold: 0.0920665
+NodeSize: 11237
+NumClasses: 2
+ClassProbabilities: 0.996262	0.00373765
+FeatureIndex: 1
+Threshold: 0.101895
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.494576	0.505424
+FeatureIndex: 2
+Threshold: 0.379506
+Tree: 8
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 8364
+NumClasses: 2
+ClassProbabilities: 0.116571	0.883429
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1364
+NumClasses: 2
+ClassProbabilities: 0.000733138	0.999267
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9728
+NumClasses: 2
+ClassProbabilities: 0.100329	0.899671
+FeatureIndex: 1
+Threshold: 0.152214
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2462
+NumClasses: 2
+ClassProbabilities: 0.00324939	0.996751
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1133
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 3595
+NumClasses: 2
+ClassProbabilities: 0.00222531	0.997775
+FeatureIndex: 1
+Threshold: 0.226064
+NodeSize: 13323
+NumClasses: 2
+ClassProbabilities: 0.0738572	0.926143
+FeatureIndex: 0
+Threshold: 0.112019
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1875
+NumClasses: 2
+ClassProbabilities: 0.999467	0.000533333
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 9287
+NumClasses: 2
+ClassProbabilities: 0.999246	0.000753742
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11162
+NumClasses: 2
+ClassProbabilities: 0.999283	0.000716717
+FeatureIndex: 0
+Threshold: 0.00601416
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 22
+NumClasses: 2
+ClassProbabilities: 0.272727	0.727273
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 15
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 37
+NumClasses: 2
+ClassProbabilities: 0.162162	0.837838
+FeatureIndex: 0
+Threshold: 0.0882614
+NodeSize: 11199
+NumClasses: 2
+ClassProbabilities: 0.996518	0.00348245
+FeatureIndex: 1
+Threshold: 0.095003
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.495229	0.504771
+FeatureIndex: 2
+Threshold: 0.381243
+Tree: 9
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 7981
+NumClasses: 2
+ClassProbabilities: 0.121413	0.878587
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1130
+NumClasses: 2
+ClassProbabilities: 0.000884956	0.999115
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9111
+NumClasses: 2
+ClassProbabilities: 0.106465	0.893535
+FeatureIndex: 1
+Threshold: 0.156028
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 3017
+NumClasses: 2
+ClassProbabilities: 0.00464037	0.99536
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1059
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 4076
+NumClasses: 2
+ClassProbabilities: 0.00343474	0.996565
+FeatureIndex: 1
+Threshold: 0.226843
+NodeSize: 13187
+NumClasses: 2
+ClassProbabilities: 0.0746189	0.925381
+FeatureIndex: 0
+Threshold: 0.106551
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 11245
+NumClasses: 2
+ClassProbabilities: 1	0
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 76
+NumClasses: 2
+ClassProbabilities: 0.815789	0.184211
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 14
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 90
+NumClasses: 2
+ClassProbabilities: 0.688889	0.311111
+FeatureIndex: 0
+Threshold: 0.083096
+NodeSize: 11335
+NumClasses: 2
+ClassProbabilities: 0.99753	0.00247022
+FeatureIndex: 1
+Threshold: 0.0458991
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.501223	0.498777
+FeatureIndex: 2
+Threshold: 0.381337
+Tree: 10
+TreeNodeType: DecisionTreeClusterNode
+NodeType: DecisionTreeClusterNode
+Depth: 0
+NodeID: 1
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 3
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 5
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 7
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 8038
+NumClasses: 2
+ClassProbabilities: 0.113959	0.886041
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1096
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 9134
+NumClasses: 2
+ClassProbabilities: 0.100285	0.899715
+FeatureIndex: 1
+Threshold: 0.158627
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 2890
+NumClasses: 2
+ClassProbabilities: 0.00553633	0.994464
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1084
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 3974
+NumClasses: 2
+ClassProbabilities: 0.00402617	0.995974
+FeatureIndex: 1
+Threshold: 0.224527
+NodeSize: 13108
+NumClasses: 2
+ClassProbabilities: 0.0711016	0.928898
+FeatureIndex: 0
+Threshold: 0.107372
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 1
+NodeID: 4
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 6
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 8
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 1910
+NumClasses: 2
+ClassProbabilities: 0.999476	0.00052356
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 9472
+NumClasses: 2
+ClassProbabilities: 0.999155	0.000844595
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 11382
+NumClasses: 2
+ClassProbabilities: 0.999209	0.000790722
+FeatureIndex: 0
+Threshold: 0.00601507
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 2
+NodeID: 7
+IsLeafNode: 0
+HasLeftChild: 1
+HasRightChild: 1
+LeftChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 9
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 20
+NumClasses: 2
+ClassProbabilities: 0.05	0.95
+FeatureIndex: 0
+Threshold: 0
+RightChild
+NodeType: DecisionTreeClusterNode
+Depth: 3
+NodeID: 10
+IsLeafNode: 1
+HasLeftChild: 0
+HasRightChild: 0
+NodeSize: 12
+NumClasses: 2
+ClassProbabilities: 0	1
+FeatureIndex: 0
+Threshold: 0
+NodeSize: 32
+NumClasses: 2
+ClassProbabilities: 0.03125	0.96875
+FeatureIndex: 0
+Threshold: 0.0841751
+NodeSize: 11414
+NumClasses: 2
+ClassProbabilities: 0.996496	0.00350447
+FeatureIndex: 1
+Threshold: 0.0967622
+NodeSize: 24522
+NumClasses: 2
+ClassProbabilities: 0.501835	0.498165
+FeatureIndex: 2
+Threshold: 0.381283
