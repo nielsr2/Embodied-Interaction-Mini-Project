@@ -1,7 +1,5 @@
 # Introduction
 
-
-
 "The Internet of Things", e.g., smart light, 
 is becoming increasingly ubiqitious. The question this is: *how do we develop relations, and fluid controls for our digital co-inhabitants?*
 
@@ -141,7 +139,7 @@ With the prospect of obtaining this feature, some work was put into extracting t
 	- In order to be efficient in regards to recording, labelling, storing data, more familiarity with the MultiBuffer (MUBU) max-package was needed.
 	- Perhaps most importantly: The features above needs to be filtered to avoid redundant data (i.e., frequency-domain features assumes periodicity, which is not equally present nor relevant for all laban elements or sensor data). Kikhia et al. employed elaborate feature selection methods to solve this.
 
-The work can be seen in some (messy) max patches in folder feature_extraction_ML
+Some of this work can be seen in a (messy) max patch - see overview2.maxpat for example.
 
 **Why was it interesting to obtain Laban descriptors, particularly the direction effort of poor time resolution?** 
 
